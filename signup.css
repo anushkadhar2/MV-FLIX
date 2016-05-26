@@ -1,0 +1,99 @@
+* {
+
+    background-image: url('images/bg.png');
+}
+
+/*HEADER*/
+header img {
+
+    width : 150px;
+    height : 110px;
+    border-radius: 80px;
+}
+/*NAVIGATION BAR*/
+#navigation {
+
+    margin-top: -120px;
+
+
+}
+
+#navigation ul {
+
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+
+    display: block;
+    float: right;
+    margin: 0;
+    font-size:30px;
+    margin-top: 20px;
+    font-family: 'Lobster', cursive;
+    font-weight:bold;
+
+
+
+}
+
+#navigation a {
+
+    color: whitesmoke;
+    /*
+    display: block;
+    */
+    padding: 40px;
+    text-decoration: none;
+
+}
+footer {
+
+
+    color: lightgoldenrodyellow;
+    width: 100%;
+    text-align : center;
+    height: 15px;
+    margin-top: 49%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+#table
+{
+    background-color: black;
+    color : lightgoldenrodyellow;
+    width : 60%;
+    float  : left;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+
+    margin-top:10%;
+    margin-left:10px;
+    padding: 10px 10px 10px 10px;
+
+
+}
+#table tr td input
+{
+    color: pink;
+    width : 60%;
+    height: 60%;
+
+}
+
+#sign-up {
+    background-color: #dddddd;
+    color: #eeeeee;
+    border-radius: 7px;
+    width: 10%;
+    height: 15%;
+    padding: 5px;
+    margin-top: 35%;
+    margin-left: 260px;
+}

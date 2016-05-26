@@ -1,0 +1,137 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+body {
+
+
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+/*HEADER*/
+header img {
+
+    width : 150px;
+    height : 110px;
+    border-radius: 80px;
+}
+/*NAVIGATION BAR*/
+#navigation {
+
+    margin-top: -120px;
+
+
+}
+
+#navigation ul {
+
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+
+    display: block;
+    float: right;
+    font-size:30px;
+    margin-top: 20px;
+    font-family: 'Lobster', cursive;
+    font-weight:bold;
+
+}
+
+#navigation a {
+
+    color: #990000;
+    padding: 40px;
+    text-decoration: none;
+
+}
+
+#img1,#img2,#img3,#img4,#img5
+{
+    float : right;
+    margin-top: 50px;
+    margin-right: -80%;
+
+
+}
+
+
+footer {
+
+    background-color: black;
+    color: blue;
+    width: 100%;
+    text-align : center;
+    height: 15px;
+    margin-top: 1%;
+    font-size: 9px;
+
+}
+
+#tb1
+{
+
+    color : lightgoldenrodyellow;
+    width : 60%;
+    margin-left: 30%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top:0%;
+   padding: 10px 10px 10px 10px;
+
+}
+#tb2{
+    margin-left: 30%;
+}
+p{
+    color : lightgoldenrodyellow;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating {
+    border: none;
+    float: left;
+}
+
+.rating > input { display: none; }
+.rating > label:before {
+    margin: 5px;
+    font-size: 1.25em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating > .half:before {
+    content: "\f089";
+    position: absolute;
+}
+
+.rating > label {
+    color: #ddd;
+    float: right;
+}
+
+
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  }
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  }

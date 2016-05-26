@@ -1,0 +1,78 @@
+
+body{
+    background-color: black;
+
+}
+/*HEADER*/
+header img {
+
+    width : 150px;
+    height : 110px;
+    border-radius: 80px;
+}
+
+video
+{
+    width : 80%;
+    height : 20%;
+    margin-left: 120px;
+
+    margin-top:34px;
+    margin-bottom: 40px;
+    box-shadow: 0 9px ;
+}
+
+.button1{
+    display:block;
+    float: right;
+    background-color : #800000;
+    border-radius: 30px;
+    cursor: pointer;
+    height : 40px;
+    width:150px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: -85px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.button1:hover {background-color: cornflowerblue}
+.button2{
+
+    display: block;
+    background-color : #800000;
+    border-radius: 30px;
+    cursor: pointer;
+    height : 40px;
+    width:150px;
+    text-decoration: underline;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 75%;
+    margin-top: -83px;
+    text-align: center;
+
+
+}
+.button2:hover {
+    background-color: cornflowerblue;
+}
+footer {
+
+
+    color: lightgoldenrodyellow;
+    width: 100%;
+    text-align : center;
+    height: 15px;
+    margin-top: 1%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+
+}
