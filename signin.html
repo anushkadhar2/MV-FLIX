@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LOGIN PAGE</title>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="signin.css"  type="text/css" />
+</head>
+
+<body>
+
+<header>
+    <a href = "index.html"><img src="images/logo.png"/></a>
+</header>
+
+<nav id = "navigation" class="clearfix">
+    <ul>
+
+   <li> <a href="#">ABOUT US</a> </li>
+   <li> <a href="#">TV SHOWS</a></li>
+   <li> <a href="#">MUSIC</a><li>
+   <li> <a href="#">MOVIES</a></li>
+        </ul>
+    </nav>
+        <ul class="tabs">
+            <li>
+                <input type="radio" checked name="tabs" id="tab1">
+                <label for="tab1">USER LOGIN</label>
+                <div id="tab-content1" class="tab-content animated fadeIn">
+
+
+                        <input type = "text" placeholder="Name" id = "user-name"required><br>
+                        <input type = "text" placeholder = "Password" required><br>
+                    <a href="catalog.html"><input type = "submit" value="SIGN IN"></a>
+
+                    <p>Not a member? <a href="signup.html">Sign up now</a><span class="fontawesome-arrow-right"></span></p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" id="tab2">
+                <label for="tab2">ADMIN LOGIN</label>
+                <div id="tab-content2" class="tab-content animated fadeIn">
+
+                        <input type = "text" placeholder="Name" id="name"  required ><br>
+                        <input type = "text" placeholder = "Password"  id="password"required><br>
+                        <a href = "catalog.html"><input type = "submit" value="SIGN IN" id="submit"></a>
+
+                </div>
+            </li>
+            <li>
+
+        </ul>
+<footer>
+    <p>@COPYRIGHT MOVIEFLIX INCORPORATION LTD.</p>
+</footer>
+
+</body>
+</html>

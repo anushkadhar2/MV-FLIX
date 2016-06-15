@@ -1,0 +1,24 @@
+body {
+
+    background-image:url('images/zoo10.gif')  ;
+    background-size: cover;
+    width: 14px;
+    height:  14px;
+
+
+}
+div > p{
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+     display:  inline-block;
+     font-size: 4em;
+      margin-top: 3em;
+
+}
+header img {
+
+    width : 150px;
+    height : 110px;
+    border-radius: 80px;
+}
